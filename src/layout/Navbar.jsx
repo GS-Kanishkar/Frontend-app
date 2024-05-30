@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container-fluid">
       <div className="navbar-header mx-auto">
           <Link className="navbar-brand fw-bold fs-3 " to="/">
-            Simple React App 
+            Dockerizing Fullstack React App 
           </Link>
         </div>
         <button

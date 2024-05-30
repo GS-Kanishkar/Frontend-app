@@ -43,6 +43,7 @@ export default function AddUser() {
                 name="firstName"
                 value={firstName}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <div className="mb-3">
@@ -69,6 +70,7 @@ export default function AddUser() {
                 name="email"
                 value={email}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <div className="mb-3">
@@ -82,6 +84,7 @@ export default function AddUser() {
                 name="department"
                 value={department}
                 onChange={(e) => onInputChange(e)}
+                required
               />
             </div>
             <button type="submit" className="btn btn-outline-primary">
