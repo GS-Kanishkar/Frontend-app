@@ -8,6 +8,8 @@ RUN npm install
 
 RUN npm install vite 
 
+RUN npm install esbuild@0.21.5 vite@5.2.11
+
 COPY . .
 
 RUN npm run build
